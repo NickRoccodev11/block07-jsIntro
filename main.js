@@ -3,7 +3,7 @@ PSEUDOCODE:
 -create a string to inform the user they are getting a combination
 -Declare each variable needed for the combination
 -A safe combination will usually not change, (nor will our message to the user) so use const.
--use three different math operators
+-use three different math operators when assigning the combo variables
 -comment each step
 -make an element in your html for printing the combo number to
 -use alert to make a pop-up dialog box

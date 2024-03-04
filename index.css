@@ -10,3 +10,12 @@ body{
   color: red;
   text-decoration: underline;
 }
+img{
+ display: none;
+ width: 50%;
+ height: auto;
+}
+#img-container{
+  display: flex;
+  justify-content: center;
+}

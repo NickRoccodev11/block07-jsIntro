@@ -40,6 +40,7 @@ answerDisplay.innerText = `${comboOne}-${comboTwo}-${comboThree}`;
 alert(userMessage + " " + comboOne + "-" + comboTwo + " " + comboThree);
 
 //STRETCH
+const safe = document.getElementById("safe")
 const userComboOne = prompt("what is the first number of the combination", "");
 
 const userComboTwo = prompt("what is the second number of the combination", "");
@@ -50,6 +51,7 @@ if (userComboOne == comboOne &&
   userComboTwo == comboTwo &&
   userComboThree == comboThree) {
   alert('nicely done, here are the jewels');
+ safe.style.display = "block";
 } else {
   alert("Incorrect Entry: Alarm has been triggered!");
 }

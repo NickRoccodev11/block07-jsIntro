@@ -37,7 +37,7 @@ let answerDisplay = document.getElementById("answer");
 answerDisplay.innerText = `${comboOne}-${comboTwo}-${comboThree}`;
 
 // This alert demonstates string concatenation
-alert(userMessage + " " + comboOne + "-" + comboTwo + " " + comboThree);
+alert(userMessage + " " + comboOne + "-" + comboTwo + "-" + comboThree);
 
 //STRETCH
 const safe = document.getElementById("safe")

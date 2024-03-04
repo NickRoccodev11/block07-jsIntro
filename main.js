@@ -12,7 +12,7 @@ PSEUDOCODE:
 
 
 //here is our message displayed in the alert:
-const userMessage = "You have received this message because you have been chosen to open an important vault. Here is the secret combination:"
+const userMessage = "You have received this message because you have been chosen to open an important vault. Here is the secret combination:";
 
 
 //Here I use the previously assigned variable
@@ -30,11 +30,26 @@ const comboThree = 40 - 1;
 
 
 //Here, we grab the h2 element by its ID...
-let answerDisplay = document.getElementById("answer")
+let answerDisplay = document.getElementById("answer");
 
 // ...And then render it to the DOM with .innerText
 //Here we use a string template literal:
-answerDisplay.innerText = `${comboOne}-${comboTwo}-${comboThree}`
+answerDisplay.innerText = `${comboOne}-${comboTwo}-${comboThree}`;
 
 // This alert demonstates string concatenation
-alert(userMessage + " " + comboOne + "-" + comboTwo + " " + comboThree)
+alert(userMessage + " " + comboOne + "-" + comboTwo + " " + comboThree);
+
+//STRETCH
+const userComboOne = prompt("what is the first number of the combination", "");
+
+const userComboTwo = prompt("what is the second number of the combination", "");
+
+const userComboThree = prompt("what is the third number of the combination", "");
+
+if (userComboOne == comboOne &&
+  userComboTwo == comboTwo &&
+  userComboThree == comboThree) {
+  alert('nicely done, here are the jewels');
+} else {
+  alert("Incorrect Entry: Alarm has been triggered!");
+}

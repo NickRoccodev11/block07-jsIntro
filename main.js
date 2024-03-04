@@ -29,10 +29,12 @@ const comboThree = 40 - 1;
 */
 
 
-//Here, we grab the h2 element by its ID:
+//Here, we grab the h2 element by its ID...
 let answerDisplay = document.getElementById("answer")
-// And then render it to the DOM with .innerText
+
+// ...And then render it to the DOM with .innerText
 //Here we use a string template literal:
 answerDisplay.innerText = `${comboOne}-${comboTwo}-${comboThree}`
+
 // This alert demonstates string concatenation
 alert(userMessage + " " + comboOne + "-" + comboTwo + " " + comboThree)

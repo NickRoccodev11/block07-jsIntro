@@ -1,0 +1,12 @@
+body{
+  background-color: rgb(190, 180, 180);
+}
+ h2{
+  text-align: center;
+  margin-top: 20px;
+}
+
+#answer{
+  color: red;
+  text-decoration: underline;
+}

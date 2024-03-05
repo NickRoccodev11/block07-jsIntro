@@ -19,3 +19,19 @@ img{
   display: flex;
   justify-content: center;
 }
+
+@keyframes warning{
+  0%{
+    background-color:  rgb(190, 180, 180);
+  }50%{
+    background-color: red;
+  }100%{
+    background-color:  rgb(190, 180, 180);
+  }
+}
+
+.alarm-triggered{
+  animation-name: warning;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}

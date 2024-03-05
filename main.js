@@ -57,5 +57,6 @@ if (userComboOne == comboOne &&
   comboHeader.innerText = "";
   answerDisplay.innerText = "";
   safe.src = 'alarm.webp';
+  document.body.classList.add("alarm-triggered");
 }
 safe.style.display = "block";

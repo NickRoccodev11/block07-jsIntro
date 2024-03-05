@@ -51,7 +51,11 @@ if (userComboOne == comboOne &&
   userComboTwo == comboTwo &&
   userComboThree == comboThree) {
   alert('nicely done, here are the jewels');
- safe.style.display = "block";
 } else {
   alert("Incorrect Entry: Alarm has been triggered!");
+  const comboHeader = document.getElementById("combo-header");
+  comboHeader.innerText = "";
+  answerDisplay.innerText = "";
+  safe.src = 'alarm.webp';
 }
+safe.style.display = "block";
